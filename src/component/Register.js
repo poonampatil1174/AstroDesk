@@ -100,7 +100,8 @@ const Register = () => {
             <input type="password" className="form-control" name="confirmPassword" placeholder="Confirm password" value={user.confirmPassword} onChange={handleChange} />
           </div>
 
-          <button type="submit" className="btn btn-primary w-100">Register</button>
+          <button type="submit" className="btn btn-primary w-100"
+          style={{ backgroundColor: "rgb(255, 136, 0)", color: "white", border: "none" }}>Register</button>
         </form>
 
         <p className="mt-3 text-center">

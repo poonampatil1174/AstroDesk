@@ -3,11 +3,18 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      className="navbar navbar-expand-lg navbar-light "
+      style={{
+        backgroundColor: "rgb(253, 150, 32)",
+        color: "white",
+        border: "none",
+        hover:"red",
+      }}
+    >
       <div className="container-fluid">
-
         <Link className="navbar-brand" to="/">
-        AstroDesk
+          AstroDesk
         </Link>
 
         <button
@@ -19,12 +26,11 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-        <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            
             <li className="nav-item">
               <Link className="nav-link active" to="/">
                 Home
@@ -39,46 +45,45 @@ function Navbar() {
 
             <li className="nav-item">
               <Link className="nav-link active" to="/remedies">
-              Remedies
+                Remedies
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link active" to="/kundali-milan">
-              Kundali Milan
+                Kundali Milan
               </Link>
             </li>
 
-          <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link active" to="/kundali-creation">
-              Kundali Creation
+                Kundali Creation
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link active" to="/E-Commerce">
-              E-Commerce
+                E-Commerce
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link active" to="/blogs">
-              Blogs
+                Blogs
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link active" to="/support">
-              Support
+                Support
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link active" to="/profile">
-              Profile
+                Profile
               </Link>
             </li>
-
           </ul>
         </div>
       </div>

@@ -72,7 +72,8 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary w-100">Login</button>
+          <button type="submit" className="btn btn-primary w-100"
+          style={{ backgroundColor: "rgb(255, 136, 0)", color: "white", border: "none" }} >Login</button>
         </form>
 
         <p className="mt-3 text-center">
