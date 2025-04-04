@@ -16,9 +16,9 @@ import Remedies from './pages/Remedies';
 import Blogs from './pages/Blogs';
 import KundaliMilan from './pages/KundaliMilan';
 import KundaliCreation from './pages/KundaliCreation';
-import Ecommerce from './pages/Ecommerce';  // ✅ Added
-import Support from './pages/Support';      // ✅ Added
-import Profile from './pages/Profile';      // ✅ Added
+import Ecommerce from './pages/Ecommerce';  
+import Support from './pages/Support';      
+import Profile from './pages/Profile';      
 
 function App() {
   return (
