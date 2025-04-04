@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css"
 
 function KundliMilan() {
   const [result, setResult] = useState(null);
@@ -14,7 +15,7 @@ function KundliMilan() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
+      <h2 className="text-center mb-4" >
         Kundli Milan (Matchmaking)
       </h2>
 
@@ -53,7 +54,7 @@ function KundliMilan() {
 
         <div className="text-center">
           <button type="submit" className="btn btn-warning px-4">
-            Match Kundli 🔮
+            Match Kundli
           </button>
         </div>
       </form>

@@ -21,8 +21,8 @@ function KundliCreation() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
-        Kundli Creation 🪔
+      <h2 className="text-center mb-4">
+        Kundli Creation 
       </h2>
 
       <form onSubmit={handleSubmit} className="p-4 shadow bg-light rounded">
@@ -94,7 +94,7 @@ function KundliCreation() {
 
         <div className="text-center">
           <button type="submit" className="btn btn-warning">
-            Generate Kundli 🔯
+            Generate Kundli 
           </button>
         </div>
       </form>

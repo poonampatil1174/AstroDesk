@@ -14,7 +14,7 @@ function Profile() {
   return (
     <div className="container my-5">
       <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
-        Your Profile 🌟
+        Your Profile 
       </h2>
 
       <div className="row justify-content-center">
@@ -36,21 +36,21 @@ function Profile() {
 
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                <strong>📞 Phone:</strong> {user.phone}
+                <strong> Phone:</strong> {user.phone}
               </li>
               <li className="list-group-item">
-                <strong>📅 Date of Birth:</strong> {user.dob}
+                <strong>Date of Birth:</strong> {user.dob}
               </li>
               <li className="list-group-item">
-                <strong>⚧️ Gender:</strong> {user.gender}
+                <strong> Gender:</strong> {user.gender}
               </li>
               <li className="list-group-item">
-                <strong>📍 Location:</strong> {user.location}
+                <strong>Location:</strong> {user.location}
               </li>
             </ul>
 
             <div className="text-center mt-4">
-              <button className="btn btn-warning">Edit Profile ✏️</button>
+              <button className="btn btn-warning">Edit Profile </button>
             </div>
           </div>
         </div>

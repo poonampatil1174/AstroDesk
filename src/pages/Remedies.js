@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 const remediesData = [
   {
@@ -40,7 +41,7 @@ function Remedies() {
               <div className="card-body">
                 <h5 className="card-title">{remedy.title}</h5>
                 <p className="card-text">{remedy.description}</p>
-                <button className="btn" style={{ backgroundColor: "#ff8800", color: "#fff" }}>
+                <button className="btn" >
                   View Details
                 </button>
               </div>

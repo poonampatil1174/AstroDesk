@@ -27,8 +27,8 @@ const products = [
 function ECommerce() {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
-        AstroShop 🛒
+      <h2 className="text-center mb-4" >
+        AstroShop 
       </h2>
 
       <div className="row">

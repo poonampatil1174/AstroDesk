@@ -27,8 +27,8 @@ const blogs = [
 function Blogs() {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
-        Astrology Blogs 📚
+      <h2 className="text-center mb-4" >
+        Astrology Blogs 
       </h2>
 
       <div className="row">
