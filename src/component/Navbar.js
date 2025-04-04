@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light "
-      style={{
-        backgroundColor: "rgb(253, 150, 32)",
-        color: "white",
-        border: "none",
-        hover:"red",
-      }}
+      className="navbar navbar-expand-lg navbar-light bg-light "
+      // style={{
+      //   backgroundColor: "rgb(241, 201, 177)",
+      //   color: "white",
+      //   border: "none",
+
+      // }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">

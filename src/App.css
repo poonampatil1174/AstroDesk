@@ -1,4 +1,4 @@
-
+/* 
 .App {
   text-align: center;
 }
@@ -36,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+/* for appointment starts here */
+.text-center 
+{
+  color:#ff8800;
 }
+.btn
+{
+  background-color: #ff8800;
+  color: #fff;
+  align-items: center; 
+}
+/* for appointmet ends here */
+
+/* for all buttons with class name btn starts  here*/
+.btn:hover
+{
+  background-color: black;
+  color:white;
+}
+/* for all buttons with class name btn ends here */

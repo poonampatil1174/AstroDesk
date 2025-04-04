@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css";
 
 function Appointment() {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
+      <h2 className="text-center mb-4" >
         Book Your Appointment
       </h2>
 
@@ -43,7 +44,7 @@ function Appointment() {
           <textarea className="form-control" rows="3" placeholder="Type here..."></textarea>
         </div>
 
-        <button type="submit" className="btn" style={{ backgroundColor: "#ff8800", color: "#fff" }}>
+        <button type="submit" className="btn ">
           Book Appointment
         </button>
       </form>
