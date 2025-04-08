@@ -68,9 +68,9 @@ const Register = () => {
   
 
   return (
-    <div className="container d-flex justify-content-center align-items-center vh-100">
+    <div className="container d-flex justify-content-center align-items-center "style={{ minHeight: "100vh", paddingTop: "80px" }}>
       <div className="card p-4 shadow" style={{ width: "400px" }}>
-        <h2 className="text-center mb-3">Register</h2>
+        <h2 className="text-center mb-3" style={{color:"black"}}>Register</h2>
 
         {error && <div className="alert alert-danger">{error}</div>}
 
@@ -100,11 +100,10 @@ const Register = () => {
             <input type="password" className="form-control" name="confirmPassword" placeholder="Confirm password" value={user.confirmPassword} onChange={handleChange} />
           </div>
 
-          <button type="submit" className="btn btn-primary w-100"
-          style={{ backgroundColor: "rgb(255, 136, 0)", color: "white", border: "none" }}>Register</button>
+          <button type="submit" className="btn  w-100">Register</button>
         </form>
 
-        <p className="mt-3 text-center">
+        <p className="mt-3 text-center" style={{color:"black"}}>
           Already have an account? <a href="/login">Login here</a>
         </p>
       </div>

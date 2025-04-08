@@ -15,7 +15,7 @@ function KundliCreation() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Kundli Details Submitted 🌠");
+    alert("Kundli Details Submitted");
     console.log(kundli);
   };
 
@@ -93,7 +93,7 @@ function KundliCreation() {
         </div>
 
         <div className="text-center">
-          <button type="submit" className="btn btn-warning">
+          <button type="submit" className="btn ">
             Generate Kundli 
           </button>
         </div>

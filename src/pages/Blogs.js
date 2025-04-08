@@ -46,7 +46,7 @@ function Blogs() {
                 <small className="text-muted">{blog.date}</small>
                 <p className="card-text mt-2">{blog.snippet}</p>
                 <div className="mt-auto">
-                  <button className="btn btn-warning btn-sm">Read More →</button>
+                  <button className="btn  btn-sm">Read More →</button>
                 </div>
               </div>
             </div>

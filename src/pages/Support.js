@@ -39,9 +39,11 @@ function Support() {
                 <textarea className="form-control" rows="4" placeholder="Type your message here..."></textarea>
               </div>
 
-              <button type="submit" className="btn btn-warning">
+             <div class="btn-center">
+             <button type="submit" className="btn ">
                 Submit
               </button>
+             </div>
             </form>
           </div>
         </div>

@@ -13,7 +13,7 @@ function Profile() {
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
+      <h2 className="text-center mb-4">
         Your Profile 
       </h2>
 
@@ -50,7 +50,7 @@ function Profile() {
             </ul>
 
             <div className="text-center mt-4">
-              <button className="btn btn-warning">Edit Profile </button>
+              <button className="btn">Edit Profile </button>
             </div>
           </div>
         </div>

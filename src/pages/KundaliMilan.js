@@ -14,11 +14,13 @@ function KundliMilan() {
   };
 
   return (
-    <div className="container my-5">
+   
+      <div className="container my-5" >
       <h2 className="text-center mb-4" >
         Kundli Milan (Matchmaking)
       </h2>
 
+      <div class="container"style={{backgroundColor:"white",color:"black"}}>
       <form onSubmit={handleSubmit}>
         <div className="row mb-4">
           <h5>Boy's Details</h5>
@@ -52,12 +54,13 @@ function KundliMilan() {
           </div>
         </div>
 
-        <div className="text-center">
-          <button type="submit" className="btn btn-warning px-4">
+        <div className="btn-center">
+          <button type="submit" className="btn px-4" >
             Match Kundli
           </button>
         </div>
       </form>
+      </div>
 
       {result && (
         <div className="mt-5 text-center">
@@ -66,6 +69,7 @@ function KundliMilan() {
         </div>
       )}
     </div>
+   
   );
 }
 

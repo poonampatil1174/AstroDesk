@@ -5,12 +5,12 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light bg-light "
-      // style={{
-      //   backgroundColor: "rgb(241, 201, 177)",
-      //   color: "white",
-      //   border: "none",
+       style={{
+        backgroundColor: "red",
+        color: "white",
+        border: "none",
 
-      // }}
+      }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">

@@ -46,8 +46,8 @@ function ECommerce() {
                 <p className="card-text text-muted">{item.description}</p>
                 <h6 className="mt-auto">{item.price}</h6>
                 <div className="mt-3 d-flex justify-content-between">
-                  <button className="btn btn-outline-warning btn-sm">View Details</button>
-                  <button className="btn btn-warning btn-sm">Add to Cart</button>
+                  <button className="btn  btn-sm">View Details</button>
+                  <button className="btn  btn-sm">Add to Cart</button>
                 </div>
               </div>
             </div>

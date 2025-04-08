@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import '../App.css'
 
 const Login = () => {
   const [mobile, setMobile] = useState("");
@@ -45,7 +46,7 @@ const Login = () => {
   return (
     <div className="container d-flex justify-content-center align-items-center vh-100">
       <div className="card p-4 shadow" style={{ width: "400px" }}>
-        <h2 className="text-center mb-3">Login</h2>
+        <h2 className="text-center mb-3" style={{color:"black"}}>Login</h2>
 
         {error && <div className="alert alert-danger">{error}</div>}
 
@@ -72,11 +73,10 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary w-100"
-          style={{ backgroundColor: "rgb(255, 136, 0)", color: "white", border: "none" }} >Login</button>
+          <button type="submit" className="btn  w-100" >Login</button>
         </form>
 
-        <p className="mt-3 text-center">
+        <p className="mt-3 text-center"style={{color:"black"}}>
           Don't have an account? <a href="/register">Register here</a>
         </p>
       </div>

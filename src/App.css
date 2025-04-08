@@ -41,22 +41,38 @@
 
 
 /* for pages starts here */
+.container{
+  background-color: #861f39;
+  padding: 30px;
+  border-radius: 8px;
+  
+}
+.p-4
+{
+  background-color: #ffffff;
+  color:rgb(0, 0, 0);
+}
 .text-center 
 {
-  color:#ff8800;
+  color:#ffffff;
 }
 .btn
 {
-  background-color: #ff8800;
+  background-color: #861f39;
   color: #fff;
   align-items: center; 
 }
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
 /* for pages ends here */
 
 /* for all page buttons with class name btn starts  here*/
 .btn:hover
 {
-  background-color: black;
-  color:white;
+  background-color: #b33857;
+  color:rgb(255, 255, 255);
 }
 /* for all page buttons with class name btn ends here */

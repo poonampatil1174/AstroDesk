@@ -25,7 +25,7 @@ const remediesData = [
 function Remedies() {
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4" style={{ color: "#ff8800" }}>
+      <h2 className="text-center mb-4" >
         Astrological Remedies
       </h2>
       <div className="row">
@@ -41,9 +41,11 @@ function Remedies() {
               <div className="card-body">
                 <h5 className="card-title">{remedy.title}</h5>
                 <p className="card-text">{remedy.description}</p>
+                <div class="btn-center">
                 <button className="btn" >
                   View Details
                 </button>
+                </div>
               </div>
             </div>
           </div>
